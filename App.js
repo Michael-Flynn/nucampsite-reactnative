@@ -1,5 +1,7 @@
-import Main from './screens/MainComponent';
+import Main from './screens/MainComponent'
 
 export default function App() {
-    return <Main />;
+  return <Main/>;
 }
+
+
