@@ -14,14 +14,14 @@ const DirectoryScreen = (props) => {
                 </ListItem.Content>
             </ListItem>
         );
-    }
+    };
     return (
-    <FlatList 
-        data = {props.campsite} 
-        renderItem = {renderDirectoryItem} 
-        keyExtractor={(item) => item.id.toString()} 
-    /> 
+        <FlatList 
+            data = {props.campsite} 
+            renderItem = {renderDirectoryItem} 
+            keyExtractor={(item) => item.id.toString()} 
+        /> 
     );
-}
+};
 
 export default DirectoryScreen;
