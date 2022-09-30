@@ -11,7 +11,7 @@ const Drawer = createDrawerNavigator();
 const screenOptions = {
     headerTintColor: '#fff',
     headerStyle: { backgroundColor: '#5637DD' }
-}
+};
 
 const HomeNavigator = () => {
     const Stack = createStackNavigator();
@@ -23,8 +23,8 @@ const HomeNavigator = () => {
                 options={{ title: 'Home' }}
             />
         </Stack.Navigator>
-    )
-}
+    );
+};
 
 const DirectoryNavigator = () => {
     const Stack = createStackNavigator();
@@ -58,7 +58,7 @@ const Main = () => {
                     Platform.OS === 'ios' ? 0 : Constants.statusBarHeight
             }}
         >
-            <Drawer.Navigator 
+            <Drawer.Navigator
                 initialRouteName='Home'
                 drawerStyle={{ backgroundColor: '#CEC8FF' }}
             >
