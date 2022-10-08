@@ -106,7 +106,7 @@ const CampsiteInfoScreen = ({ route }) => {
                 placeholder='Comment'
                 leftIcon={{ type: 'font-awesome', name: 'comment-o' }}
                 leftIconContainerStyle={{ paddingRight: 10 }}
-                onchangeText={(text) => setText(text)}
+                onchangeText={(comment) => setText(comment)}
                 value={text}
             />
             <View>
